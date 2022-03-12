@@ -1,0 +1,7 @@
+import pandas as pd
+df=pd.read_csv("item.csv') #reading the csv
+df #displays the csv 
+df['quantity'] #shows the quantity 
+df.shape  #displays the shape of the matrix 
+df['quantity'].mean()
+df['quantity']=df['quantity'].fillna(df['quantity']).mean()

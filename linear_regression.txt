@@ -1,0 +1,21 @@
+y=mx+b
+formula for linear regression
+y = dependent var
+x= independent var
+m=coefficient 
+b= intercept
+
+we need to find the values of b and m(slope)
+
+Types of linear relationship
+1.) Positive linear relationship :-
+val of x increases with the val of y 
+                                     slope < 1
+2.) Negative linear relationship :-
+val of one var increases with the decreases with the val of other
+                                     slope >1
+Ques : on the basis of given model design a ML model
+
+
+
+Ques : predict canada's per capita income in year 2020. consider canadaper capita income.csv file. using the file build a regression model and predcit the per capita income for canadian citizen in the year 2020
