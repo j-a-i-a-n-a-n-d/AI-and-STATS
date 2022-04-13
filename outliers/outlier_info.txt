@@ -1,0 +1,35 @@
+Outliers is the data point in dataset different from all other data in dataset.
+Example : a person scoring 8 runs in 1 ball.
+
+Leads to incorrect mean and SD.
+Thereby we need to remove the outliers.
+Here we are using the method IQR(interquartile range)
+
+
+
+the IQR method comprises of the 4 percentiles 
+
+Q1 = 25%ile 
+Q2 = 50%ile
+Q3 = 75%ile 
+1.) Calculate the Q1 and Q3 Quartile.
+
+2.) Find the quartile range    :     IQR=q3-q1
+
+3.) Find lower bound           : Lower Bound = q1-1.5iqr
+
+4.) Find the upper bound      :Upper Bound = q3+ 1.5iqr
+
+5.) Anything that lies below the lower bound and the upper bound is a outlier.
+
+
+
+Ques 1 : 
+1.) Build a Linear Regression Model for the csv MBA.csv.
+2.) Predict salary for 74.66.
+
+Ques 2 : 
+1.) Build multi-linear model for the data set cars.csv.
+2.) Predict CO2 based on volume and height.
+3.) Predict coefficient and intercept values.
+4.) Predict CO2 for the Volume =1650 and Weight=1310.

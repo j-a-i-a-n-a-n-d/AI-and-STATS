@@ -1,0 +1,21 @@
+multi linear regression : more than 1 independent variable
+standard equation        : y= m1x1+ m2x2 + m3x3 
+
+QUES 1 : 
+Given the home prices find out the price of the home has :
+
+3000 sq ft area 3 bedrooms 40 years old 
+2500 sq ft area 4 bedrooms 5 years old 
+ price  =  m1*area + m2*bedrooms + m3*age + b
+dependent variable  price 
+
+
+NaN => no data available 
+if such entries are there fill it with mean median and mode 
+need to justify why we have done so 
+
+QUES 2 : 
+
+
+
+
